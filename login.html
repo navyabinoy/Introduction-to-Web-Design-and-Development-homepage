@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> Login page </title>
+</head>
+<body bgcolor=#e6f3ff>
+
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<center>
+<div class="container">
+<div class="center">
+<h1>Login</h1>
+<form action="" method="POST">
+<div class="txt_field"
+<input type="text" name="text" required>
+<span></span>
+<label>Username</label>
+<input type="text" id="w" name="username">
+<div class="txt_field">
+<br>
+<label>Password</label>
+<input type="password" id="e" name="password" required>
+<span></span>
+<br>
+<br> 
+
+<center><button onclick="ABC()" type="submit"> Login </button></center>
+<br><br>
+<div class="pass">Forget Password?</div>
+<br>
+<div class="signup_link">
+Not a Member? <a href="reg.html/"> Register </a>
+
+<script>
+function  ABC()
+{let username = document.getElementById("w").value;
+let password = document.getElementById("e").value;
+let uname = localStorage.getItem("username");
+let pass = localStorage.getItem("password");
+if(username == uname && password==pass)
+{alert("you are valid");
+window.location.href="reg.html";}
+else{alert("intruder");}}
+</script>
