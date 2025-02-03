@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Dashboard - Introduction to Web Design and Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light blue background */
+        }
+        header {
+            background-color: #4682b4; /* Steel blue */
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #87cefa; /* Light sky blue */
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #4682b4; /* Darker blue for hover effect */
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #b0e0e6; /* Powder blue */
+            color: #333;
+            padding: 15px;
+            height: 100vh;
+        }
+        .sidebar a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+        .sidebar a:hover {
+            background-color: #4682b4; /* Darker blue for hover effect */
+            color: #fff;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+           </style>
+</head>
+<body>
+
+<header>
+    <h1>Introduction to Web Design and Development</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="sidebar">
+        <h3>Dashboard</h3>
+        <a href="#">Overview</a>
+        <a href="#">Lesson 1</a>
+        <a href="#">Lesson 2</a>
+        <a href="#">Assignments</a>
+        <a href="#">Grades</a>
+    </div>
+    <div class="main-content">
+        <h2>Welcome to Your Dashboard</h2>
+        <p>This is where you can track your progress and access your course materials.</p>
+        <div class="content-section">
+            <h3>Latest Announcements</h3>
+            <ul>
+                <li>New lesson added: Introduction to HTML</li>
+                <li>Upcoming assignment: Create a simple webpage</li>
+                <li>Next live session: February 10, 2025</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Web Design and Development Course</p>
+</footer>
+
+</body>
+</html>
